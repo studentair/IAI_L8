@@ -1,0 +1,65 @@
+<div class="navbar">
+
+</div>
+<div class="container-fluid">
+  <div class="box">
+    <form novalidate>
+      <fieldset>
+        <h1>Uzupełnij dane:</h1>
+        <div class="form-group">
+          <label for="exampleInputName">Imię:</label>
+          <input type="text" class="form-control" id="exampleInputName" placeholder="Podaj imię" required/>
+          <div id="iexampleInputName"></div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputSurname">Nazwisko:</label>
+          <input type="text" class="form-control" id="exampleInputSurname" placeholder="Podaj nazwisko"
+                 required/>
+          <div id="iexampleInputSurname"></div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">E-mail:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Podaj email"
+                 required/>
+          <div id="iexampleInputEmail1"></div>
+        </div>
+        <label>Płeć:</label><br/>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                 value="option1" checked required/>
+          <label class="form-check-label" for="inlineRadio1">Mężczyzna</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                 value="option2" required/>
+          <label class="form-check-label" for="inlineRadio2">Kobieta</label>
+        </div>
+        <br/><br/>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Wiadomość</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputAge">Wiek:</label>
+          <input type="number" class="form-control" id="exampleInputAge" placeholder="Podaj wiek" min="18"/>
+          <div id="iexampleInputAge"></div>
+        </div>
+        <div class="form-group">
+          <label for="inputMarital">Stan cywilny</label>
+          <select id="inputMarital" class="form-control" required>
+            <option>Panna/Kawaler</option>
+            <option>Żonata/Żonaty</option>
+            <option>Wdowa/Wdowiec</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-primary">Wyślij</button>
+        <button type="reset" class="btn btn-danger">Wyczyść</button>
+      </fieldset>
+    </form>
+  </div>
+  <button class="myButton " title="Wróć do góry">UP</button>
+</div>
+<footer class="absolute">
+  &copy; 2018<br/>
+  Dawid Martyka
+</footer>
